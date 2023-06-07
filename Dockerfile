@@ -1,4 +1,4 @@
-FROM openjdk:1.8.0_361
+FROM openjdk:.17.0.7
 
 VOLUME /tmp
 COPY target/*.jar app.jar
